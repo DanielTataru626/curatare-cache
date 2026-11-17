@@ -41,7 +41,7 @@ Aplicația nu este în Magazin Play, de aceea Android cere câteva confirmări �
 2. Deschide fișierul. Dacă telefonul spune că nu permite instalarea din această sursă, apasă **Setări**, activează **Permite din această sursă** și revino cu Înapoi.
 3. Apasă **Instalează** (sau **Actualizează**, dacă ai deja o versiune mai veche).
 4. Dacă apare avertismentul **Google Play Protect**, nu apăsa „OK”. Apasă **Mai multe detalii**, apoi **Instalează oricum**. Avertismentul apare la orice aplicație din afara Magazinului Play pe care Google nu o vede pe multe telefoane; nu înseamnă că aplicația este periculoasă.
-5. Deschide aplicația și, la secțiunea **Pregătire**, apasă **Activează serviciul Curățare cache**, apoi activează comutatorul (pe Samsung se află la „Aplicații instalate”). Dacă Android spune că setarea este restricționată: Setări, Aplicații, Curățare cache, meniul ⋮, **Permite setările restricționate**.
+5. Deschide aplicația și, la secțiunea **Pregătire**, apasă **Activează serviciul Curățare cache**, apoi activează comutatorul (pe Samsung se află la „Aplicații instalate”). Dacă Android spune că setarea este restricționată: în aplicație apasă **Deschide informațiile aplicației**, apoi meniul ⋮ (Mai multe opțiuni), **Permite setările restricționate**, și încearcă din nou. Opțiunea apare în meniu doar după ce ai primit o dată mesajul de blocare.
 6. Apasă **Golește cache-ul tuturor aplicațiilor**.
 
 Ghidul complet, cu problemele frecvente, este atașat fiecărei versiuni de la Releases.
@@ -66,6 +66,6 @@ Probleme sau idei? Scrie la [Issues](../../issues).
 
 - Android does not let an app clear the whole cache of other apps at once, so the Cache Cleaner accessibility service opens Settings for each app in turn and presses only "Clear cache". It never presses anything else and can be stopped at any time. The same method is used on every brand (Samsung, Motorola, Pixel, Xiaomi and others).
 - Requires Android 11 or newer. No permissions, no internet access, no ads, no data collection.
-- Install: download `CuratareCache.apk` from [Releases](../../releases/latest), allow installing from that source, and on the Google Play Protect warning choose **More details**, then **Install anyway**. Then turn on the Cache Cleaner accessibility service from the app's Setup section.
+- Install: download `CuratareCache.apk` from [Releases](../../releases/latest), allow installing from that source, and on the Google Play Protect warning choose **More details**, then **Install anyway**. Then turn on the Cache Cleaner accessibility service from the app's Setup section. If Android says the setting is restricted, press **Open App info** in the app, then the ⋮ menu, **Allow restricted settings**, and try again.
 
 Built with the help of Claude, an AI assistant made by Anthropic. Provided free, as is, without warranty, under the [MIT License](LICENSE).
